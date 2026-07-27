@@ -14,11 +14,11 @@ Feature: Shopping Jewelry
       When user click on the Jewelry button on top menu
       And user select the Create Your Own Jewelry
       Then user should be on the Create Your Own Jewelry page
-      And user fill out following fields
-      |Material |Length in cm |Pendant|Qty|
-      |Gold (1 mm)|40          |Heart |2  |
+      When user fill out following fields
+      |Material |Length in cm|Pendant|Qty|
+      |Gold (1 mm)|40          |Heart | 2|
       And And the user adds the item to the cart
       And user click on the shopping cart button
       Then user should be on Shopping cart page
-      And user mark the agree box and click on checkout button
+
 

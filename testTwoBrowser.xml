@@ -1,0 +1,25 @@
+<suite name="Cross Browser Suite" >
+    <test name="Chrome Test" parallel="tests" thread-count="2">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="base.BrowserContext"/>
+            <class name="stepDefinitions.CucumberHooks"/>
+            <methods>
+                <include name="base.BrowserContext.getBrowser" />
+            </methods>
+           <class name="runners.TestRunner"/>
+        </classes>
+    </test>
+    <test name="Edge Test" parallel="tests" thread-count="2">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="base.BrowserContext"/>
+            <class name="stepDefinitions.CucumberHooks"/>
+            <methods>
+                <include name="base.BrowserContext.getBrowser" />
+            </methods>
+            <class name="runners.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>

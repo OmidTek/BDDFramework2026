@@ -2,23 +2,41 @@ package base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 
 public class DriverFactory {
     private static ThreadLocal< WebDriver> tlDriver=new ThreadLocal<>();
+    private static ThreadLocal<String> browser = new ThreadLocal<>();
     //private static WebDriver driver;
-    public static Logger logger;
+    private  static Logger logger;
 
     public static void initiateDriver(String browserType) {
+        browser.set(browserType);
         logger = LogManager.getLogger(DriverFactory.class);
         switch (browserType.toLowerCase()) {
             case "chrome":
-                tlDriver.set(new ChromeDriver());
+                ChromeOptions options = new ChromeOptions();
+
+                options.addArguments("--disable-save-password-bubble");
+                options.addArguments("--disable-notifications");
+                options.addArguments("--guest");
+
+                Map<String, Object> prefs = new HashMap<>();
+
+                prefs.put("credentials_enable_service", false);
+                prefs.put("profile.password_manager_enabled", false);
+
+                options.setExperimentalOption("prefs", prefs);
+
+                tlDriver.set(new ChromeDriver(options));
                 break;
             case "edge":
                 tlDriver.set(new EdgeDriver());

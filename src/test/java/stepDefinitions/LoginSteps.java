@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 public class LoginSteps {
 
     private DemoWebShopMainPage dwsmp;
-    final Logger log = LogManager.getLogger(LoginSteps.class);
+    private static final Logger log = LogManager.getLogger(LoginSteps.class);
 
     @Given("navigate to the Demo Web Shop")
     public void navigate_to_the_demo_web_shop() {

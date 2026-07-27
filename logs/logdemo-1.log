@@ -1,105 +1,87 @@
-15:48:50.860 [main] INFO  stepDefinitions.LoginSteps - navigate to the Demo Web Shop
-15:48:51.362 [main] INFO  stepDefinitions.LoginSteps - click on login button on header
-15:48:51.609 [main] INFO  stepDefinitions.LoginSteps - should be show Welcome Please Sign In
-15:48:51.693 [main] INFO  stepDefinitions.LoginSteps - enter the valid email {string}
-15:48:51.759 [main] INFO  stepDefinitions.LoginSteps - enter the valid password {string}
-15:48:52.722 [main] INFO  stepDefinitions.LoginSteps - click on login button
-15:48:52.747 [main] INFO  stepDefinitions.LoginSteps - should be logged in successfully
-16:10:22.240 [main] INFO  stepDefinitions.LoginSteps - navigate to the Demo Web Shop
-16:10:23.019 [main] INFO  stepDefinitions.LoginSteps - click on login button on header
-16:10:23.136 [main] INFO  stepDefinitions.LoginSteps - should be show Welcome Please Sign In
-16:10:23.249 [main] INFO  stepDefinitions.LoginSteps - enter the valid email {string}
-16:10:23.374 [main] INFO  stepDefinitions.LoginSteps - enter the valid password {string}
-16:10:24.580 [main] INFO  stepDefinitions.LoginSteps - click on login button
-16:10:24.620 [main] INFO  stepDefinitions.LoginSteps - should be logged in successfully
-16:16:44.444 [main] INFO  stepDefinitions.LoginSteps - navigate to the Demo Web Shop
-16:16:45.176 [main] INFO  stepDefinitions.LoginSteps - click on login button on header
-16:16:45.255 [main] INFO  stepDefinitions.LoginSteps - should be show Welcome Please Sign In
-16:16:45.351 [main] INFO  stepDefinitions.LoginSteps - enter the valid email {string}
-16:16:45.459 [main] INFO  stepDefinitions.LoginSteps - enter the valid password {string}
-16:16:46.889 [main] INFO  stepDefinitions.LoginSteps - click on login button
-16:16:46.950 [main] INFO  stepDefinitions.LoginSteps - should be logged in successfully
-16:32:18.650 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sabah\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
-16:32:18.972 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
-16:32:18.973 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:32:18.977 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:32:18.978 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:32:18.978 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:32:18.979 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
-16:32:18.980 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:32:18.980 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:32:18.980 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:32:18.980 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:32:18.992 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@2a62b5bc] -439247219
-16:32:18.992 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:32:18.992 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:32:18.993 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:32:18.993 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:32:18.999 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\sabah\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+02:01:44.318 [TestNG-PoolService-1] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Add jewelry to the cart and proceed to checkout
+02:01:46.661 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - navigate to the Demo Web Shop
+02:01:47.172 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - click on login button on header
+02:01:47.215 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - should be show Welcome Please Sign In
+02:01:47.265 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid email {string}
+02:01:47.331 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid password {string}
+02:01:48.241 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - click on login button
+02:01:48.269 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - should be logged in successfully
+02:01:52.517 [TestNG-PoolService-1] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Add jewelry to the cart and proceed to checkout - PASSED
+02:01:55.247 [TestNG-PoolService-1] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Add jewelry to the cart and proceed to checkout
+02:01:57.198 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - navigate to the Demo Web Shop
+02:01:57.681 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - click on login button on header
+02:01:57.725 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - should be show Welcome Please Sign In
+02:01:57.777 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid email {string}
+02:01:57.840 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid password {string}
+02:01:58.717 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - click on login button
+02:01:58.743 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - should be logged in successfully
+02:02:03.111 [TestNG-PoolService-1] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Add jewelry to the cart and proceed to checkout - PASSED
+02:02:34.559 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sabah\IdeaProjects\BDDFramework2026\testTwoBrowser.xml"
+02:02:34.576 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\sabah\IdeaProjects\BDDFramework2026\testTwoBrowser.xml] otherwise TestNG may fail or not work as expected.
+02:02:34.797 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+02:02:34.797 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+02:02:34.797 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+02:02:34.797 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+02:02:34.797 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+02:02:34.797 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+02:02:34.797 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+02:02:34.797 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+02:02:34.797 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+02:02:34.797 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+02:02:34.812 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BrowserContext.setBrowser(java.lang.String)[pri:0, instance:base.BrowserContext@4ed5eb72] -694746799
+02:02:34.812 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@25aca718] -518287383
+02:02:34.812 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+02:02:34.817 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+02:02:34.817 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+02:02:34.817 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+02:02:34.827 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+02:02:34.827 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+02:02:34.827 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+02:02:34.827 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+02:02:34.827 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+02:02:34.827 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+02:02:34.830 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+02:02:34.830 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+02:02:34.830 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+02:02:34.830 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+02:02:34.830 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BrowserContext.setBrowser(java.lang.String)[pri:0, instance:base.BrowserContext@2e2ff723] -1242493694
+02:02:34.830 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@22bac7bc] -567693171
+02:02:34.830 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+02:02:34.832 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+02:02:34.832 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+02:02:34.832 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+02:02:34.834 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sabah\IdeaProjects\BDDFramework2026\testTwoBrowser.xml
 
-16:32:25.628 [main] INFO  stepDefinitions.LoginSteps - navigate to the Demo Web Shop
-16:32:26.414 [main] INFO  stepDefinitions.LoginSteps - click on login button on header
-16:32:26.488 [main] INFO  stepDefinitions.LoginSteps - should be show Welcome Please Sign In
-16:32:26.598 [main] INFO  stepDefinitions.LoginSteps - enter the valid email {string}
-16:32:26.713 [main] INFO  stepDefinitions.LoginSteps - enter the valid password {string}
-16:32:27.881 [main] INFO  stepDefinitions.LoginSteps - click on login button
-16:32:27.925 [main] INFO  stepDefinitions.LoginSteps - should be logged in successfully
-16:33:17.414 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sabah\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
-16:33:17.716 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
-16:33:17.717 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:33:17.721 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:33:17.721 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:33:17.722 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:33:17.724 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
-16:33:17.724 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:33:17.724 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:33:17.724 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:33:17.724 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:33:17.735 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@344f4dea] -272746821
-16:33:17.735 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-16:33:17.735 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-16:33:17.735 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-16:33:17.735 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-16:33:17.742 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\sabah\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
-
-16:33:22.901 [main] INFO  stepDefinitions.LoginSteps - navigate to the Demo Web Shop
-16:33:23.652 [main] INFO  stepDefinitions.LoginSteps - click on login button on header
-16:33:23.720 [main] INFO  stepDefinitions.LoginSteps - should be show Welcome Please Sign In
-16:33:23.818 [main] INFO  stepDefinitions.LoginSteps - enter the valid email {string}
-16:33:24.034 [main] INFO  stepDefinitions.LoginSteps - enter the valid password {string}
-16:33:24.873 [main] INFO  stepDefinitions.LoginSteps - click on login button
-18:23:21.351 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sabah\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
-18:23:21.660 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
-18:23:21.664 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-18:23:21.669 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-18:23:21.669 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-18:23:21.669 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-18:23:21.669 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
-18:23:21.669 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-18:23:21.669 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-18:23:21.669 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-18:23:21.669 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-18:23:21.681 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4b6e2263] 115149620
-18:23:21.681 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-18:23:21.681 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-18:23:21.681 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-18:23:21.681 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-18:23:21.691 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\sabah\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
-
-18:23:26.674 [main] INFO  stepDefinitions.LoginSteps - navigate to the Demo Web Shop
-18:23:29.330 [main] INFO  stepDefinitions.LoginSteps - click on login button on header
-18:23:29.402 [main] INFO  stepDefinitions.LoginSteps - should be show Welcome Please Sign In
-18:23:29.509 [main] INFO  stepDefinitions.LoginSteps - enter the valid email {string}
-18:23:29.625 [main] INFO  stepDefinitions.LoginSteps - enter the valid password {string}
-18:23:30.903 [main] INFO  stepDefinitions.LoginSteps - click on login button
-18:23:30.940 [main] INFO  stepDefinitions.LoginSteps - should be logged in successfully
-18:29:32.522 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sabah\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
-18:29:32.767 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
-18:29:32.768 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
-18:29:32.771 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
-18:29:32.771 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
-18:29:32.771 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
-18:29:32.772 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+02:02:36.732 [TestNG-PoolService-1] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Add jewelry to the cart and proceed to checkout
+02:02:36.738 [TestNG-PoolService-1] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Add jewelry to the cart and proceed to checkout
+02:02:39.114 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - navigate to the Demo Web Shop
+02:02:39.719 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - click on login button on header
+02:02:39.778 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - should be show Welcome Please Sign In
+02:02:39.847 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - navigate to the Demo Web Shop
+02:02:39.867 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid email {string}
+02:02:39.966 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid password {string}
+02:02:40.324 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - click on login button on header
+02:02:40.375 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - should be show Welcome Please Sign In
+02:02:40.437 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid email {string}
+02:02:40.502 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid password {string}
+02:02:40.880 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - click on login button
+02:02:40.910 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - should be logged in successfully
+02:02:41.360 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - click on login button
+02:02:41.386 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - should be logged in successfully
+02:02:45.134 [TestNG-PoolService-1] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Add jewelry to the cart and proceed to checkout - PASSED
+02:02:45.290 [TestNG-PoolService-1] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Add jewelry to the cart and proceed to checkout - PASSED
+02:05:22.808 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sabah\IdeaProjects\BDDFramework2026\testTwoBrowser.xml"
+02:05:22.828 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\sabah\IdeaProjects\BDDFramework2026\testTwoBrowser.xml] otherwise TestNG may fail or not work as expected.
+02:05:23.046 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+02:05:23.046 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+02:05:23.050 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+02:05:23.050 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+02:05:23.050 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+02:05:23.050 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+02:05:23.050 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+02:05:23.050 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+02:05:23.050 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+02:05:23.050 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+02:05:23.061 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BrowserContext.setBrowser(java.lang.String)[pri:0, instance:base.BrowserContext@6bca7e0d] -208956436
+02:05:23.061 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@79517588] 885022297

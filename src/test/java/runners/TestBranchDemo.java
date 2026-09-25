@@ -5,7 +5,7 @@ public class TestBranchDemo {
 
 
     public static void main(String[] args) {
-        System.out.println("This class was created in the test branch.");
+        System.out.println("This code was changed in MAIN branch.");
     }
 
 }

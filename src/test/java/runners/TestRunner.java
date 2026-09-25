@@ -15,7 +15,7 @@ publish = false,
 monochrome = true
         ,   plugin =  {
         "pretty",
-        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:","rerun:target/failed_scenarios.txt"
         }
 
 //        "html:target/site/cucumberReport.html" }

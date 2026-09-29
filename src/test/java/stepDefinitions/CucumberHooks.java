@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 import utils.ConfigReader;
 import utils.ScenarioContext;
 import utils.ScreenshotUtils;
+import utils.YamlReader;
 
 import static base.BrowserContext.getBrowser;
 
@@ -28,7 +29,13 @@ public class CucumberHooks {
     @Before(order = 1)
     public void launchBrowser() {
        // DriverFactory.initiateDriver(ConfigReader.getProperty("browser"));
+
+        String environment = YamlReader.get("environment");
         browser=BrowserContext.getBrowser();
+        System.out.println("Browser from XML: " + browser);
+        System.out.println("Environment from YAML: " + environment);
+
+
         DriverFactory.initiateDriver(browser);
     }
 

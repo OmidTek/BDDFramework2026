@@ -9,7 +9,9 @@ import org.testng.annotations.DataProvider;
 @CucumberOptions(
 features = "src/test/resources/features",
 glue={"stepDefinitions"},
-tags=" @test or @shopping",
+//tags=" @test or @shopping",
+        tags="@yaml",
+
 dryRun = false,
 publish = false,
 monochrome = true

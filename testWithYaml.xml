@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="YAML Test Suite">
+
+    <test name="Chrome YAML Test">
+
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="base.BrowserContext"/>
+            <class name="runners.TestRunner"/>
+        </classes>
+
+    </test>
+
+</suite>

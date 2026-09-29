@@ -1,0 +1,11 @@
+#kye :  value
+environment: qa
+browser: chrome
+username: Omid
+suiteFile: testWithYaml.xml
+
+qa:
+  url: https://www.saucedemo.com/
+
+demo:
+  url: https://demowebshop.tricentis.com/

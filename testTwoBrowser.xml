@@ -1,4 +1,16 @@
 <suite name="Cross Browser Suite">
+<!-- run from cmd  sample   mvn clean test -Dbrowser=chrome
+ mvn clean test -Dbrowser=chrome -Denv=qa -Dusername=Omid
+ second point choose xml file
+
+ mvn clean test -Dsurefire.suiteXmlFiles=testTwoBrowser.xml
+
+
+
+ -->
+
+
+
 
     <test name="Chrome Test">
         <parameter name="browser" value="chrome"/>
@@ -30,7 +42,7 @@
         <parameter name="browser" value="chrome"/>
         <classes>
             <class name="base.BrowserContext"/>
-            <class name="runners.TestRunner"/>
+            <class name="runners.FailedTestRunner"/>
         </classes>
     </test>
 
@@ -38,7 +50,7 @@
         <parameter name="browser" value="edge"/>
         <classes>
             <class name="base.BrowserContext"/>
-            <class name="runners.TestRunner"/>
+            <class name="runners.FailedTestRunner"/>
         </classes>
     </test>
 

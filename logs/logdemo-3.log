@@ -1,83 +1,85 @@
-12:38:31.537 [TestNG-PoolService-7] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Login with different valid credentials
-12:38:31.788 [TestNG-PoolService-5] INFO  stepDefinitions.ShoppingJewelrySteps - the user opens the page
-12:38:31.850 [TestNG-PoolService-4] INFO  stepDefinitions.ShoppingJewelrySteps - the user opens the page
-12:38:32.192 [TestNG-PoolService-7] INFO  stepDefinitions.ShoppingJewelrySteps - the user opens the page
-12:38:32.993 [TestNG-PoolService-2] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Login with different valid credentials
-12:38:33.417 [TestNG-PoolService-3] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Login with different valid credentials
-12:38:33.549 [TestNG-PoolService-1] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Add jewelry to the cart and proceed to checkout
-12:38:33.767 [TestNG-PoolService-2] INFO  stepDefinitions.ShoppingJewelrySteps - the user opens the page
-12:38:33.808 [TestNG-PoolService-7] INFO  stepDefinitions.ShoppingJewelrySteps - the user enters the usernamevisual_userand passwordsecret_sauce
-12:38:33.915 [TestNG-PoolService-4] INFO  stepDefinitions.ShoppingJewelrySteps - the user enters the usernameproblem_userand passwordsecret_sauce
-12:38:34.052 [TestNG-PoolService-7] INFO  stepDefinitions.ShoppingJewelrySteps - the user on the main page
-12:38:34.149 [TestNG-PoolService-4] INFO  stepDefinitions.ShoppingJewelrySteps - the user on the main page
-12:38:34.260 [TestNG-PoolService-6] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Login with different valid credentials
-12:38:34.380 [TestNG-PoolService-3] INFO  stepDefinitions.ShoppingJewelrySteps - the user opens the page
-12:38:34.427 [TestNG-PoolService-4] INFO  stepDefinitions.ShoppingJewelrySteps - the user clicks the burger menu
-12:38:34.463 [TestNG-PoolService-6] INFO  stepDefinitions.ShoppingJewelrySteps - the user opens the page
-12:38:34.742 [TestNG-PoolService-7] INFO  stepDefinitions.ShoppingJewelrySteps - the user clicks the burger menu
-12:38:34.784 [TestNG-PoolService-2] INFO  stepDefinitions.ShoppingJewelrySteps - the user enters the usernamestandard_userand passwordsecret_sauce
-12:38:34.847 [TestNG-PoolService-4] INFO  stepDefinitions.ShoppingJewelrySteps - the user logs out
-12:38:34.856 [TestNG-PoolService-4] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Login with different valid credentials - PASSED
-12:38:34.965 [TestNG-PoolService-2] INFO  stepDefinitions.ShoppingJewelrySteps - the user on the main page
-12:38:35.194 [TestNG-PoolService-2] INFO  stepDefinitions.ShoppingJewelrySteps - the user clicks the burger menu
-12:38:35.288 [TestNG-PoolService-3] INFO  stepDefinitions.ShoppingJewelrySteps - the user enters the usernamelocked_out_userand passwordsecret_sauce
-12:38:35.300 [TestNG-PoolService-7] INFO  stepDefinitions.ShoppingJewelrySteps - the user logs out
-12:38:35.305 [TestNG-PoolService-7] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Login with different valid credentials - PASSED
-12:38:35.458 [TestNG-PoolService-6] INFO  stepDefinitions.ShoppingJewelrySteps - the user enters the usernameerror_userand passwordsecret_sauce
-12:38:35.501 [TestNG-PoolService-3] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Login with different valid credentials - FAILED
-12:38:35.577 [TestNG-PoolService-6] INFO  stepDefinitions.ShoppingJewelrySteps - the user on the main page
-12:38:35.676 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - navigate to the Demo Web Shop
-12:38:35.711 [TestNG-PoolService-6] INFO  stepDefinitions.ShoppingJewelrySteps - the user clicks the burger menu
-12:38:36.041 [TestNG-PoolService-2] INFO  stepDefinitions.ShoppingJewelrySteps - the user logs out
-12:38:36.043 [TestNG-PoolService-2] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Login with different valid credentials - PASSED
-12:38:36.240 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - click on login button on header
-12:38:36.306 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - should be show Welcome Please Sign In
-12:38:36.408 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid email {string}
-12:38:36.421 [TestNG-PoolService-6] INFO  stepDefinitions.ShoppingJewelrySteps - the user logs out
-12:38:36.423 [TestNG-PoolService-6] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Login with different valid credentials - PASSED
-12:38:36.597 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid password {string}
-12:38:37.702 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - click on login button
-12:38:37.810 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - should be logged in successfully
-12:38:38.681 [TestNG-PoolService-5] INFO  stepDefinitions.ShoppingJewelrySteps - the user enters the usernameperformance_glitch_userand passwordsecret_sauce
-12:38:38.756 [TestNG-PoolService-5] INFO  stepDefinitions.ShoppingJewelrySteps - the user on the main page
-12:38:38.820 [TestNG-PoolService-5] INFO  stepDefinitions.ShoppingJewelrySteps - the user clicks the burger menu
-12:38:39.434 [TestNG-PoolService-5] INFO  stepDefinitions.ShoppingJewelrySteps - the user logs out
-12:38:39.435 [TestNG-PoolService-5] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Login with different valid credentials - PASSED
-12:38:42.257 [TestNG-PoolService-1] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Add jewelry to the cart and proceed to checkout - PASSED
-12:38:50.257 [TestNG-PoolService-2] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Login with different valid credentials
-12:38:50.296 [TestNG-PoolService-7] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Login with different valid credentials
-12:38:50.303 [TestNG-PoolService-1] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Add jewelry to the cart and proceed to checkout
-12:38:50.384 [TestNG-PoolService-4] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Login with different valid credentials
-12:38:50.397 [TestNG-PoolService-6] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Login with different valid credentials
-12:38:50.405 [TestNG-PoolService-5] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Login with different valid credentials
-12:38:50.405 [TestNG-PoolService-3] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Login with different valid credentials
-12:38:52.140 [TestNG-PoolService-7] INFO  stepDefinitions.ShoppingJewelrySteps - the user opens the page
-12:38:52.220 [TestNG-PoolService-2] INFO  stepDefinitions.ShoppingJewelrySteps - the user opens the page
-12:38:52.431 [TestNG-PoolService-4] INFO  stepDefinitions.ShoppingJewelrySteps - the user opens the page
-12:38:52.495 [TestNG-PoolService-5] INFO  stepDefinitions.ShoppingJewelrySteps - the user opens the page
-12:38:52.504 [TestNG-PoolService-7] INFO  stepDefinitions.ShoppingJewelrySteps - the user enters the usernamevisual_userand passwordsecret_sauce
-12:38:52.508 [TestNG-PoolService-3] INFO  stepDefinitions.ShoppingJewelrySteps - the user opens the page
-12:38:52.524 [TestNG-PoolService-6] INFO  stepDefinitions.ShoppingJewelrySteps - the user opens the page
-12:38:52.579 [TestNG-PoolService-2] INFO  stepDefinitions.ShoppingJewelrySteps - the user enters the usernamestandard_userand passwordsecret_sauce
-12:38:52.702 [TestNG-PoolService-2] INFO  stepDefinitions.ShoppingJewelrySteps - the user on the main page
-12:38:52.834 [TestNG-PoolService-2] INFO  stepDefinitions.ShoppingJewelrySteps - the user clicks the burger menu
-12:38:52.967 [TestNG-PoolService-4] INFO  stepDefinitions.ShoppingJewelrySteps - the user enters the usernameproblem_userand passwordsecret_sauce
-12:38:53.002 [TestNG-PoolService-3] INFO  stepDefinitions.ShoppingJewelrySteps - the user enters the usernamelocked_out_userand passwordsecret_sauce
-12:38:53.026 [TestNG-PoolService-6] INFO  stepDefinitions.ShoppingJewelrySteps - the user enters the usernameerror_userand passwordsecret_sauce
-12:38:53.078 [TestNG-PoolService-4] INFO  stepDefinitions.ShoppingJewelrySteps - the user on the main page
-12:38:53.088 [TestNG-PoolService-7] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Login with different valid credentials - FAILED
-12:38:53.143 [TestNG-PoolService-6] INFO  stepDefinitions.ShoppingJewelrySteps - the user on the main page
-12:38:53.192 [TestNG-PoolService-3] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Login with different valid credentials - FAILED
-12:38:53.280 [TestNG-PoolService-4] INFO  stepDefinitions.ShoppingJewelrySteps - the user clicks the burger menu
-12:38:53.341 [TestNG-PoolService-6] INFO  stepDefinitions.ShoppingJewelrySteps - the user clicks the burger menu
-12:38:53.508 [TestNG-PoolService-2] INFO  stepDefinitions.ShoppingJewelrySteps - the user logs out
-12:38:53.508 [TestNG-PoolService-2] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Login with different valid credentials - PASSED
-12:38:53.740 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - navigate to the Demo Web Shop
-12:38:54.005 [TestNG-PoolService-4] INFO  stepDefinitions.ShoppingJewelrySteps - the user logs out
-12:38:54.007 [TestNG-PoolService-4] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Login with different valid credentials - PASSED
-12:38:54.076 [TestNG-PoolService-6] INFO  stepDefinitions.ShoppingJewelrySteps - the user logs out
-12:38:54.076 [TestNG-PoolService-6] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Login with different valid credentials - PASSED
-12:38:54.290 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - click on login button on header
-12:38:54.333 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - should be show Welcome Please Sign In
-12:38:54.396 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid email {string}
-12:38:54.468 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid password {string}
+13:56:42.079 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+13:56:42.088 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+13:56:42.089 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+13:56:42.089 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+13:56:42.089 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+13:56:42.089 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+13:56:42.090 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BrowserContext.setBrowser(java.lang.String)[pri:0, instance:base.BrowserContext@1afdd473] -1564546478
+13:56:42.096 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FailedTestRunner@503ecb24] 195933173
+13:56:42.096 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+13:56:42.096 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+13:56:42.097 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+13:56:42.097 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+13:56:43.737 [TestNG-PoolService-1] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Login with valid credentials
+13:56:45.974 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - navigate to the Demo Web Shop
+13:56:46.492 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - click on login button on header
+13:56:46.532 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - should be show Welcome Please Sign In
+13:56:46.569 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid email {string}
+13:56:46.633 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid password {string}
+13:56:46.689 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - click on login button
+13:56:47.919 [TestNG-PoolService-1] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Login with valid credentials - FAILED
+13:56:50.184 [TestNG-PoolService-1] INFO  stepDefinitions.CucumberHooks - Starting Scenario: Login with valid credentials
+13:56:52.594 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - navigate to the Demo Web Shop
+13:56:53.077 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - click on login button on header
+13:56:53.118 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - should be show Welcome Please Sign In
+13:56:53.167 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid email {string}
+13:56:53.225 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - enter the valid password {string}
+13:56:54.256 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - click on login button
+13:56:54.287 [TestNG-PoolService-1] INFO  stepDefinitions.LoginSteps - should be logged in successfully
+13:56:54.289 [TestNG-PoolService-1] INFO  stepDefinitions.CucumberHooks - Finished Scenario: Login with valid credentials - PASSED
+13:56:54.883 [main] WARN  org.testng.internal.Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+13:56:54.894 [main] WARN  org.testng.internal.Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+13:56:54.960 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BrowserContext.setBrowser(java.lang.String)[pri:0, instance:base.BrowserContext@49964d75] -782802092
+13:56:54.961 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@6d025197] 678509160
+13:56:54.961 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+13:56:54.961 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+13:56:54.961 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+13:56:54.961 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:36:00.821 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sabah\IdeaProjects\BDDFramework2026\testTwoBrowser.xml"
+14:36:00.851 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\sabah\IdeaProjects\BDDFramework2026\testTwoBrowser.xml] otherwise TestNG may fail or not work as expected.
+14:36:01.097 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+14:36:01.098 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:36:01.102 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:36:01.103 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:36:01.103 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:36:01.104 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+14:36:01.104 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:36:01.104 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:36:01.104 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:36:01.104 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:36:01.114 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BrowserContext.setBrowser(java.lang.String)[pri:0, instance:base.BrowserContext@6dab9b6d] -177426100
+14:36:01.114 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@24111ef1] -545257534
+14:36:01.114 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:36:01.118 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:36:01.118 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:36:01.118 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:36:01.128 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+14:36:01.128 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:36:01.129 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:36:01.129 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:36:01.129 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:36:01.130 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+14:36:01.130 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:36:01.130 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:36:01.130 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:36:01.130 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:36:01.132 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BrowserContext.setBrowser(java.lang.String)[pri:0, instance:base.BrowserContext@38831718] -1069273865
+14:36:01.132 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@71529963] 750879284
+14:36:01.132 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:36:01.133 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:36:01.133 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:36:01.133 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:36:01.140 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.setUpClass(org.testng.ITestContext)[pri:0, instance:null] -393284817
+14:36:01.141 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:36:01.141 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:36:01.141 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:36:01.141 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:36:01.141 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.tearDownClass()[pri:0, instance:null] 1523153566
+14:36:01.142 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:36:01.142 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING
+14:36:01.142 [main] TRACE org.testng.internal.Graph - [Graph] ====== SORTED NODES
+14:36:01.142 [main] TRACE org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+14:36:01.144 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE BrowserContext.setBrowser(java.lang.String)[pri:0, instance:base.BrowserContext@2e2ff723] -1242493694
+14:36:01.144 [main] TRACE org.testng.internal.Graph - [Graph] ADDING NODE AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.FailedTestRunner@22bac7bc] -567693171
+14:36:01.144 [main] TRACE org.testng.internal.Graph - [Graph] ================ SORTING
+14:36:01.145 [main] TRACE org.testng.internal.Graph - [Graph] =============== DONE SORTING

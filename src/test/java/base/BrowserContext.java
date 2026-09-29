@@ -13,6 +13,7 @@ public class BrowserContext {
     public static void setBrowser(String browser) {
         browserName=browser;
     }
+
     public static  String getBrowser() {
        return browserName;
     }
